@@ -1,2 +1,11 @@
-# JS-Calc
-A vanilla JS Calculator
+# JS-Calc  
+**ABOUT**: A vanilla JS Calculator  
+
+---  
+
+
+## Notes  
+
+
+
+---
