@@ -44,7 +44,7 @@ grid-template-areas:
 "one two three addition"
 "four five six equals"
 "seven eight nine equals"
-"naught naught  . equals"
+"naught naught decimal equals"
 ;
 
 }
@@ -57,17 +57,25 @@ grid-template-areas:
 }
 .btnClear{
     grid-area: clear;
+    background-color: orangered;
+    border: solid 1px rgb(100, 32, 7);
 }
 
 .btnDivide{
     grid-area: divide;
+    background-color: cadetblue;
+    border: solid 1px rgb(34, 72, 73);
 }
 .btnMultiply{
     grid-area: multi;
+    background-color: cadetblue;
+    border: solid 1px rgb(34, 72, 73);
 }
 
 .btnSubtract{
     grid-area: subt;
+    background-color: cadetblue;
+    border: solid 1px rgb(34, 72, 73);
 }
 
 .btn1{
@@ -84,6 +92,8 @@ grid-template-areas:
 
 .btnAdd{
     grid-area: addition;
+    background-color: cadetblue;
+    border: solid 1px rgb(34, 72, 73)
 }
 .btn4{
     grid-area: four;
@@ -111,8 +121,16 @@ grid-template-areas:
 
 .btnEquals{
     grid-area: equals;
+    background-color: orange;
+    border: solid 1px rgb(73, 54, 18);
 }
 
 .btn0{
     grid-area: naught;
+}
+
+.btnDecimal{
+    grid-area: decimal;
+    background-color: cadetblue;
+    border: solid 1px rgb(34, 72, 73);
 }
